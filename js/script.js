@@ -32,4 +32,4 @@ for (let antrian of storage.items) {
 }
 // }
 
-let LAST_ANTRIAN = Math.max(...storage.items.map((item) => item.no_antrian));
+let LAST_ANTRIAN = Math.max(...storage.items.map((item) => item.no_antrian), 0);
